@@ -8,7 +8,7 @@ ENV SICKBEARD_VERSION torrent_1080_subtitles
 RUN apt-get -q update &&\
     apt-get -qy --force-yes dist-upgrade
 
-RUN apt-get install -qy --force-yes python-cheetah wget tar ca-certificates curl
+RUN apt-get install -qy --force-yes python-cheetah wget tar ca-certificates curl git
 
 RUN git clone https://github.com/junalmeida/Sick-Beard.git /sickbeard
 
