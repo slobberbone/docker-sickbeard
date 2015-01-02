@@ -1,11 +1,11 @@
 # docker sickbeard
 
-This is a Dockerfile to set up "Sickbeard" - (http://sickbeard.com/)
+This is a Dockerfile to set up junalmeida's fork of "Sickbeard" - (http://sickbeard.com/)
 
 Build from docker file
 
 ```
-git clone git@github.com:timhaak/docker-sickbeard.git
+git clone git@github.com:iainmckay/docker-sickbeard.git
 cd docker-sickbeard
 docker build -t sickbeard .
 ```
