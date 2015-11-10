@@ -15,4 +15,6 @@ ln -sf /config/config.ini /sickbeard/config.ini
 ln -sf /config/sickbeard.db /sickbeard/sickbeard.db
 #ln -sf /config/autoProcessTV.cfg sickbeard/autoprocesstv/autoProcessTV.cfg
 
+sed -i 's/web_root = \"\"/web_root = \"\/sickbeard\"/g' /config/config.ini
+
 /usr/bin/python SickBeard.py
