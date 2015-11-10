@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-ENV SICKBEARD_VERSION torrent_1080_subtitles
+#ENV SICKBEARD_VERSION torrent_1080_subtitles
 #ENV SICKBEARD_VERSION build-506
 
 RUN apt-get -q update &&\
