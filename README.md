@@ -1,6 +1,6 @@
 # docker sickbeard-fr
 
-This is a Dockerfile to set up sarakha63's (https://gitlab.com/sarakha63/) fork of "Sickbeard" - (http://sickbeard.com/) for french people.
+This is a Dockerfile to set up sarakha63's (https://gitlab.com/sarakha63/) fork of "Sickbeard" - (http://sickbeard.com/) with french and english audio language
 
 ## Port
 
