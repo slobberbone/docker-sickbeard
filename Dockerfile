@@ -15,8 +15,12 @@ RUN apt-get clean &&\
   rm -rf /var/lib/apt/lists/* &&\
   rm -rf /tmp/*
 
+# map /config to host defined config path (used to store configuration from app)
 VOLUME /config
+# map /data to host defined data path (used to store downloads or use blackhole)
 VOLUME /data
+# map /media to host defined media path (used to read/write to media library)
+VOLUME /media
 
 ADD ./start.sh /start.sh
 RUN chmod u+x  /start.sh
